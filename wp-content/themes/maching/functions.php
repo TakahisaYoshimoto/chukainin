@@ -316,19 +316,19 @@ if (isset($_GET['s']) && $_GET['s'] == false) {
   add_action('template_redirect', 'search_template_redirect');
 }
 
-function my_admin_bar_menu() {
-$wp_admin_bar->remove_node('wp-logo');  // ロゴの非表示
-}
-add_action('wp_before_admin_bar_render', 'my_admin_bar_menu');
+// function my_admin_bar_menu() {
+// $wp_admin_bar->remove_node('wp-logo');  // ロゴの非表示
+// }
+// add_action('wp_before_admin_bar_render', 'my_admin_bar_menu');
 
 //ダッシュボードにメニューを追加
-add_action ( 'admin_menu', 'artist_add_pages' );
+// add_action ( 'admin_menu', 'artist_add_pages' );
 
-function artist_add_pages () {
-  add_menu_page('管理者機能', '管理者機能', 8, 'index2.php', 'test_page');
-  add_submenu_page('index2.php', 'エージェント一覧', 'エージェント一覧', 8, 'index3.php', 'test_page');
-  add_submenu_page('index2.php', '投資家一覧', '投資家一覧', 8, 'index4.php', 'test_page');}
+// function artist_add_pages () {
+//   add_menu_page('管理者機能', '管理者機能', 8, 'index2.php', 'test_page');
+//   add_submenu_page('index2.php', 'エージェント一覧', 'エージェント一覧', 8, 'index3.php', 'test_page');
+//   add_submenu_page('index2.php', '投資家一覧', '投資家一覧', 8, 'index4.php', 'test_page');}
 
-function test_page() {
-    echo '<h2>メニュー追加テストページ</h2>';
-}
+// function test_page() {
+//     echo '<h2>メニュー追加テストページ</h2>';
+// }

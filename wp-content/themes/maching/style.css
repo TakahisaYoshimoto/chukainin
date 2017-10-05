@@ -535,7 +535,7 @@ li.l_claim a span { font-size:20px; }
 .c_slider {
 	height:360px;
 	overflow: hidden;
-	background:url(../img/nav_bg.png) center bottom no-repeat;
+	background:url(img/nav_bg.png) center bottom no-repeat;
 	background-size:cover;
 }
 .c_slider ul {
