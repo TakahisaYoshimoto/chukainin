@@ -1090,7 +1090,7 @@ get_header(); ?>
 <?php get_footer(); ?>
 </div>
 </div>
-<script type="text/javascript" charset="UTF-8" src="./js/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" charset="UTF-8" src="./js/contents.js"></script>
+<script type="text/javascript" charset="UTF-8" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" charset="UTF-8" src="js/contents.js"></script>
 </body>
 </html>

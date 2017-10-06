@@ -18,6 +18,5 @@
 </div>
 </div><!-- /footer -->
   <?php wp_footer(); ?>
-  <script src="js/lightbox.min.js"></script>
   </body>
 </html>

@@ -722,7 +722,10 @@
 
 						<div class="p_heading">
 							<h2>新着エージェント<span>NEW AGENT</span></h2>
-							<div class="p_heading_bt"><a href="./list_agent.html">一覧を見る</a></div>
+							<div class="p_heading_bt">
+								<a href="<?php echo esc_url( get_category_link( get_cat_ID( '新着エージェント' ))) ?>">一覧を見る
+								</a>
+							</div>
 						</div>
 
 						<div class="p_list">
@@ -793,7 +796,10 @@
 
 						<div class="p_heading">
 							<h2>新着未公開物件<span>NEW UNDISCLOSED PROPERTY</span></h2>
-							<div class="p_heading_bt"><a href="./list_property.html">一覧を見る</a></div>
+							<div class="p_heading_bt">
+								<a href="<?php echo esc_url( get_category_link( get_cat_ID( '未公開物件' ))) ?>">一覧を見る
+								</a>
+							</div>
 						</div>
 
 						<div class="p_list">
@@ -898,7 +904,8 @@
 
 						<div class="p_heading">
 							<h2>新着成功事例<span>SUCCESS STORIES</span></h2>
-							<div class="p_heading_bt"><a href="./list_success.html">一覧を見る</a></div>
+							<div class="p_heading_bt">
+								<a href="<?php echo esc_url( get_category_link( get_cat_ID( '成功事例' ))) ?>">一覧を見る</a></div>
 						</div>
 
 						<div class="p_list">
@@ -1016,7 +1023,7 @@
 								<div class="l_side_reg_title">新規登録</div>
 								<div class="l_side_reg_body">
 									<div class="p_bt p_yellow p_shadow2">
-										<a href="">
+										<a href="<?php echo get_permalink( get_page_by_path('reg') ->ID ); ?>">
 											無料で新規登録<br>
 											<span>たった30秒で完了!!</span>
 										</a>
@@ -1029,7 +1036,7 @@
 						</div>
 						<div class="l_side_content">
 							<div class="l_side_login_button p_bt p_green p_shadow2">
-								<a href="">ログインはこちら</a>
+								<a href="<?php echo get_permalink( get_page_by_path('login') ->ID ); ?>">ログインはこちら</a>
 							</div>
 						</div>
 						<div class="l_side_content">
@@ -1398,7 +1405,5 @@
       <?php get_footer(); ?>
 			</div>
 		</div>
-		<script type="text/javascript" charset="UTF-8" src="./js/jquery-3.2.1.min.js"></script>
-		<script type="text/javascript" charset="UTF-8" src="./js/contents.js"></script>
 	</body>
 </html>

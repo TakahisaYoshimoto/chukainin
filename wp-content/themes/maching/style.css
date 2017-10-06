@@ -173,7 +173,7 @@ li.l_claim a span { font-size:20px; }
 .l_side_reg .l_side_reg_body {
 	height:306px;
 	border:1px solid #ffb32b;
-	background: url('./../img/side_reg_banner.png') center center no-repeat;
+	background: url('img/side_reg_banner.png') center center no-repeat;
 	border-bottom-left-radius: 4px;
 	border-bottom-right-radius: 4px;
 	position: relative;
@@ -861,7 +861,7 @@ li.l_claim a span { font-size:20px; }
 .c_search_area0 .c_search_area_prefectures_elem:nth-child(9){ top:177px; right:287px; height:128px; line-height:128px; }
 .c_search_area0 .c_search_area_prefectures_elem:nth-child(10){ top:100px; right:177px; height:32px; line-height:32px; }
 
-.c_search_area1{ width:100%; height:100%; background:url('./../img/bg_tohoku.png') center center no-repeat; }
+.c_search_area1{ width:100%; height:100%; background:url(img/bg_tohoku.png) center center no-repeat; }
 .c_search_area1 .c_search_area_prefectures_elem:nth-child(1){ top:113px; right:120px; width:120px; height:56px; line-height:56px; }
 .c_search_area1 .c_search_area_prefectures_elem:nth-child(2){ top:169px; right:58px; width:120px; height:56px; line-height:56px; }
 .c_search_area1 .c_search_area_prefectures_elem:nth-child(3){ top:225px; right:58px; width:120px; height:56px; line-height:56px; }
@@ -869,7 +869,7 @@ li.l_claim a span { font-size:20px; }
 .c_search_area1 .c_search_area_prefectures_elem:nth-child(5){ top:225px; right:178px; width:120px; height:56px; line-height:56px; }
 .c_search_area1 .c_search_area_prefectures_elem:nth-child(6){ top:281px; right:120px; width:120px; height:56px; line-height:56px; }
 
-.c_search_area2{ width:100%; height:100%; background:url('./../img/bg_kantou.png') center center no-repeat; }
+.c_search_area2{ width:100%; height:100%; background:url(img/bg_kantou.png) center center no-repeat; }
 .c_search_area2 .c_search_area_prefectures_elem:nth-child(1){ top:114px; right:50px; width:60px; height:112px; line-height:112px; }
 .c_search_area2 .c_search_area_prefectures_elem:nth-child(2){ top:114px; right:110px; width:100px; height:56px; line-height:56px; }
 .c_search_area2 .c_search_area_prefectures_elem:nth-child(3){ top:114px; right:210px; width:100px; height:56px; line-height:56px; }
@@ -878,13 +878,13 @@ li.l_claim a span { font-size:20px; }
 .c_search_area2 .c_search_area_prefectures_elem:nth-child(6){ top:225px; right:130px; width:100px; height:56px; line-height:56px; }
 .c_search_area2 .c_search_area_prefectures_elem:nth-child(7){ top:281px; right:130px; width:100px; height:56px; line-height:56px; }
 
-.c_search_area3{ width:100%; height:100%; background:url('./../img/bg_hokuriku.png') center center no-repeat; }
+.c_search_area3{ width:100%; height:100%; background:url(img/bg_hokuriku.png) center center no-repeat; }
 .c_search_area3 .c_search_area_prefectures_elem:nth-child(1){ top:114px; right:50px; width:60px; height:112px; line-height:112px; }
 .c_search_area3 .c_search_area_prefectures_elem:nth-child(2){ top:167px; right:110px; width:60px; height:112px; line-height:112px; }
 .c_search_area3 .c_search_area_prefectures_elem:nth-child(3){ top:167px; right:170px; width:60px; height:112px; line-height:112px; }
 .c_search_area3 .c_search_area_prefectures_elem:nth-child(4){ top:223px; right:230px; width:100px; height:56px; line-height:56px; }
 
-.c_search_area4{ width:100%; height:100%; background:url('./../img/bg_chubu.png') center center no-repeat; }
+.c_search_area4{ width:100%; height:100%; background:url(img/bg_chubu.png) center center no-repeat; }
 .c_search_area4 .c_search_area_prefectures_elem:nth-child(1){ top:141px; right:40px; width:60px; height:84px; line-height:84px; }
 .c_search_area4 .c_search_area_prefectures_elem:nth-child(2){ top:113px; right:100px; width:60px; height:112px; line-height:112px; }
 .c_search_area4 .c_search_area_prefectures_elem:nth-child(3){ top:143px; right:160px; width:100px; height:56px; line-height:56px; }
@@ -892,7 +892,7 @@ li.l_claim a span { font-size:20px; }
 .c_search_area4 .c_search_area_prefectures_elem:nth-child(5){ top:199px; right:160px; width:100px; height:56px; line-height:56px; }
 .c_search_area4 .c_search_area_prefectures_elem:nth-child(6){ top:199px; right:260px; width:60px; height:112px; line-height:112px; }
 
-.c_search_area5{ width:100%; height:100%; background:url('./../img/bg_kansai.png') center center no-repeat; }
+.c_search_area5{ width:100%; height:100%; background:url(img/bg_kansai.png) center center no-repeat; }
 .c_search_area5 .c_search_area_prefectures_elem:nth-child(1){ top:142px; right:40px; width:100px; height:56px; line-height:56px; }
 .c_search_area5 .c_search_area_prefectures_elem:nth-child(2){ top:142px; right:140px; width:120px; height:56px; line-height:56px; }
 .c_search_area5 .c_search_area_prefectures_elem:nth-child(3){ top:198px; right:200px; width:60px; height:84px; line-height:84px; }
@@ -900,20 +900,20 @@ li.l_claim a span { font-size:20px; }
 .c_search_area5 .c_search_area_prefectures_elem:nth-child(5){ top:198px; right:140px; width:60px; height:84px; line-height:84px; }
 .c_search_area5 .c_search_area_prefectures_elem:nth-child(6){ top:283px; right:140px; width:120px; height:56px; line-height:56px; }
 
-.c_search_area6{ width:100%; height:100%; background:url('./../img/bg_chugoku.png') center center no-repeat; }
+.c_search_area6{ width:100%; height:100%; background:url(img/bg_chugoku.png) center center no-repeat; }
 .c_search_area6 .c_search_area_prefectures_elem:nth-child(1){ top:143px; right:40px; width:100px; height:56px; line-height:56px; }
 .c_search_area6 .c_search_area_prefectures_elem:nth-child(2){ top:143px; right:140px; width:120px; height:56px; line-height:56px; }
 .c_search_area6 .c_search_area_prefectures_elem:nth-child(3){ top:199px; right:40px; width:100px; height:56px; line-height:56px; }
 .c_search_area6 .c_search_area_prefectures_elem:nth-child(4){ top:199px; right:140px; width:120px; height:56px; line-height:56px; }
 .c_search_area6 .c_search_area_prefectures_elem:nth-child(5){ top:169px; right:260px; width:60px; height:112px; line-height:112px; }
 
-.c_search_area7{ width:100%; height:100%; background:url('./../img/bg_shikoku.png') center center no-repeat; }
+.c_search_area7{ width:100%; height:100%; background:url(img/bg_shikoku.png) center center no-repeat; }
 .c_search_area7 .c_search_area_prefectures_elem:nth-child(1){ top:199px; right:70px; width:100px; height:56px; line-height:56px; }
 .c_search_area7 .c_search_area_prefectures_elem:nth-child(2){ top:143px; right:70px; width:100px; height:56px; line-height:56px; }
 .c_search_area7 .c_search_area_prefectures_elem:nth-child(3){ top:143px; right:170px; width:120px; height:56px; line-height:56px; }
 .c_search_area7 .c_search_area_prefectures_elem:nth-child(4){ top:199px; right:170px; width:120px; height:56px; line-height:56px; }
 
-.c_search_area8{ width:100%; height:100%; background:url('./../img/bg_kyushu.png') center center no-repeat; }
+.c_search_area8{ width:100%; height:100%; background:url(img/bg_kyushu.png) center center no-repeat; }
 .c_search_area8 .c_search_area_prefectures_elem:nth-child(1){ top:121px; right:120px; width:60px; height:84px; line-height:84px; }
 .c_search_area8 .c_search_area_prefectures_elem:nth-child(2){ top:121px; right:180px; width:60px; height:84px; line-height:84px; }
 .c_search_area8 .c_search_area_prefectures_elem:nth-child(3){ top:162px; right:240px; width:60px; height:84px; line-height:84px; }
@@ -933,7 +933,7 @@ li.l_claim a span { font-size:20px; }
 	cursor: pointer;
 }
 .c_search_area_back::before {
-	content:url('./../img/country_back.png');
+	content:url(img/country_back.png);
 	top:1px;
 	left:-12px;
 	position:absolute;
@@ -1045,7 +1045,7 @@ li.l_claim a span { font-size:20px; }
 }
 .c_search_type_body label input[type="checkbox"]:checked + span::before,
 .c_search_type_body2 label input[type="checkbox"]:checked + span::before {
-	background: #227979 url(../img/checked.png) center center no-repeat;
+	background: #227979 url(img/checked.png) center center no-repeat;
 	border: solid 1px #227979;
 }
 .c_search_form_submit {
@@ -1068,7 +1068,7 @@ li.l_claim a span { font-size:20px; }
 	border:1px solid #105d5d;
 	text-align:center;
 	border-radius: 4px;
-  background: #227979 url('./../img/icon_search_w.png') no-repeat;
+  background: #227979 url(img/icon_search_w.png) no-repeat;
 	background-position: 60px center;
 	color:#fff;
 	font-size:20px;
@@ -1107,7 +1107,7 @@ li.l_claim a span { font-size:20px; }
 	color: #ae3030;
 }
 .c_description_image {
-	background: #fff7e9 url('./../img/description_image1.png') right 8px bottom no-repeat;
+	background: #fff7e9 url(img/description_image1.png) right 8px bottom no-repeat;
 }
 
 .c_newagent_img {
@@ -1335,7 +1335,7 @@ li.l_claim a span { font-size:20px; }
   border: solid 1px #aaaaaa;
 }
 .c_all_check_check input[type="checkbox"]:checked{
-	background: #227979 url(../img/checked.png) center center no-repeat;
+	background: #227979 url(img/checked.png) center center no-repeat;
 	border: solid 1px #227979;
 }
 
@@ -1537,7 +1537,7 @@ li.l_claim a span { font-size:20px; }
 	border-right:1px solid #e2d2b6;
 	border-bottom:1px solid #e2d2b6;
 	border-left:1px solid #e2d2b6;
-	background:#fff7e9 url('./../img/check.png') top center no-repeat;
+	background:#fff7e9 url(img/check.png) top center no-repeat;
 	border-bottom-right-radius: 4px;
 	position:relative;
 }
@@ -1556,7 +1556,7 @@ li.l_claim a span { font-size:20px; }
 	position:absolute;
 }
 .c_agent_list_check input[type="checkbox"]:checked{
-	background: #227979 url(../img/checked.png) center center no-repeat;
+	background: #227979 url(img/checked.png) center center no-repeat;
 	border: solid 1px #227979;
 }
 .c_fixed_area {
@@ -2059,7 +2059,7 @@ li.l_claim a span { font-size:20px; }
 }
 .c_second_opinion_step_frame li::after,
 .c_guide_step_frame li::after {
-	content:url('./../img/guide_step.png');
+	content:url(img/guide_step.png);
 	left:50%;
   bottom: -80px;
 	transform: translate(-50%);
@@ -2090,23 +2090,23 @@ li.l_claim a span { font-size:20px; }
 
 .c_second_opinion_step_frame li:nth-child(1){
 	height:281px;
-	background:url('./../img/second_opinion_step1.png') center center no-repeat;
+	background:url(img/second_opinion_step1.png) center center no-repeat;
 }
 .c_second_opinion_step_frame li:nth-child(2){
 	height:281px;
-	background:url('./../img/second_opinion_step2.png') center center no-repeat;
+	background:url(img/second_opinion_step2.png) center center no-repeat;
 }
 .c_second_opinion_step_frame li:nth-child(3){
 	height:281px;
-	background:url('./../img/second_opinion_step3.png') center center no-repeat;
+	background:url(img/second_opinion_step3.png) center center no-repeat;
 }
 .c_second_opinion_step_frame li:nth-child(4){
 	height:281px;
-	background:url('./../img/second_opinion_step4.png') center center no-repeat;
+	background:url(img/second_opinion_step4.png) center center no-repeat;
 }
 .c_second_opinion_step_frame li:nth-child(5){
 	height:281px;
-	background:url('./../img/second_opinion_step5.png') center center no-repeat;
+	background:url(img/second_opinion_step5.png) center center no-repeat;
 }
 
 .c_guide_step_frame li:nth-child(1) .c_guide_step_txt { border: solid 1px #fedd4c; }
@@ -2327,7 +2327,7 @@ li.l_claim a span { font-size:20px; }
 	color:#fff;
 }
 .c_form_genre input:checked + label::before {
-  background: #fff url('./../img/checked_o.png') center center no-repeat;
+  background: #fff url(img/checked_o.png) center center no-repeat;
   border: solid 1px #fff;
 }
 .c_form_area_dl .p_flex {
