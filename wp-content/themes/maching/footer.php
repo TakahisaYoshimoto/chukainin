@@ -1,42 +1,21 @@
 <!-- footer -->
-<div class="footer">
-  <div class="footer_items hidden-xs hidden-sm col-md-12">
-    <a href="<?php echo get_permalink( get_page_by_path('会社案内') ->ID ); ?>">会社案内</a>
-    <p>/</p>
-    <a href="<?php echo get_permalink( get_page_by_path('利用規約') ->ID ); ?>">利用規約</a>
-    <p>/</p>
-    <a href="<?php echo get_permalink( get_page_by_path('プライバシーポリシー') ->ID ); ?>">プライバシーポリシー</a>
-    <p>/</p>
-    <a href="<?php echo esc_url( get_home_url() ); ?>">ホーム</a>
-    <p>/</p>
-    <a href="<?php echo esc_url( get_category_link( get_cat_ID( 'マガジン' ))) ?>">マガジン</a>
-    <p>/</p>
-    <a href="<?php echo esc_url( get_category_link( get_cat_ID( 'お買い物' ))) ?>">ショッピング</a>
-    <p>/</p>
-    <a href="<?php echo esc_url( get_category_link( get_cat_ID( '地域のイベント' ))) ?>">地域のイベント</a>
-    <p>/</p>
-    <a href="<?php echo esc_url( get_category_link( get_cat_ID( '地域のお店' ))) ?>">地域のお店</a>
-  </div>
-
-  <div class="footer_items hidden-md hidden-lg col-xs-12">
-    <a href="<?php echo esc_url( get_home_url() ); ?>">ホーム</a>
-    <a href="<?php echo esc_url( get_category_link( get_cat_ID( 'マガジン' ))) ?>">マガジン</a>
-    <a href="<?php echo esc_url( get_category_link( get_cat_ID( 'お買い物' ))) ?>">ショッピング</a>
-    <a href="<?php echo esc_url( get_category_link( get_cat_ID( '地域のイベント' ))) ?>">地域のイベント</a>
-    <a href="<?php echo esc_url( get_category_link( get_cat_ID( '地域のお店' ))) ?>">地域のお店</a>
-    <a href="<?php echo get_permalink( get_page_by_path('会社案内') ->ID ); ?>">会社案内</a>
-    <a href="<?php echo get_permalink( get_page_by_path('利用規約') ->ID ); ?>">利用規約</a>
-    <a href="<?php echo get_permalink( get_page_by_path('プライバシーポリシー') ->ID ); ?>">プライバシーポリシー</a>
-  </div>
-
-  <div class="footer_text">
-    <div class="sm_footer hidden-xs hidden-sm col-md-12">
-      <p>Copyright &copy; 2017 YOSHIMOTO SHINBUNHO All Rights Reserved.</p>
+<div class="l_footer">
+  <div class="l_footer_copyright">
+    <div class="p_inner2">
+      <ul class="p_flex p_jc_around">
+        <li><a href="<?php echo get_permalink( get_page_by_path('company') ->ID ); ?>">運営会社</a></li>
+        <li><a href="<?php echo get_permalink( get_page_by_path('privacy') ->ID ); ?>">プライバシーポリシー</a></li>
+        <li><a href="<?php echo get_permalink( get_page_by_path('use') ->ID ); ?>">利用規約</a></li>
+        <li><a href="<?php echo get_permalink( get_page_by_path('tokusho') ->ID ); ?>">特定商取引法に基づく表記</a></li>
+        <li><a href="<?php echo get_permalink( get_page_by_path('faq') ->ID ); ?>">よくある質問</a></li>
+        <li><a href="<?php echo get_permalink( get_page_by_path('contact') ->ID ); ?>">お問い合わせ</a></li>
+      </ul>
     </div>
-    <div class="xs_footer col-xs-12 hidden-md hidden-lg">
-      <p>Copyright &copy; 2017</br> YOSHIMOTO SHINBUNHO All Rights Reserved.</p>
+    <div class="l_footer_last_text">
+      Copyright 未公開収益物件仲介人 All Rights Reserved.
     </div>
   </div>
+</div>
 </div><!-- /footer -->
   <?php wp_footer(); ?>
   <script src="js/lightbox.min.js"></script>

@@ -13,58 +13,65 @@
 
 get_header(); ?>
 
-	<?php if(is_page('会社案内')): ?>
-		<div class="container company_container">
-		  <div class="title_area">
-				<p class="en_title">Company</p>
-				<p class="ja_title">/会社案内</p>
-			</div>
-			<br>
-			<div class="page_content_area col-xs-12">
-				<p>
-					<?php
-						$page_info = get_page_by_path('会社案内');
-						$page = get_post($page_info);
-						echo $page->post_content;
-					?>
-				</p>
-			</div>
+	<?php if(is_page('運営会社')): ?>
+		<div class="container">
+			<p>
+				<?php
+					$page_info = get_page_by_path('運営会社');
+					$page = get_post($page_info);
+					echo $page->post_content;
+				?>
+			</p>
 		</div>
 	<?php elseif(is_page('利用規約')): ?>
-		<div class="container terms_container">
-		  <div class="title_area">
-				<p class="en_title">Terms</p>
-				<p class="ja_title">/利用規約</p>
-			</div>
-			<hr>
-			<br>
-			<div class="page_content_area">
-				<p>
-					<?php
-						$page_info = get_page_by_path('利用規約');
-						$page = get_post($page_info);
-						echo $page->post_content;
-					?>
-				</p>
-			</div>
+		<div class="container">
+			<p>
+				<?php
+					$page_info = get_page_by_path('利用規約');
+					$page = get_post($page_info);
+					echo $page->post_content;
+				?>
+			</p>
 		</div>
 	<?php elseif(is_page('プライバシーポリシー')): ?>
-		<div class="container policy_container">
-			<div class="title_area">
-				<p class="en_title">Privacy</p>
-				<p class="ja_title">/プライバシーポリシー</p>
-			</div>
-			<hr>
-			<br>
-			<div class="page_content_area">
-				<p>
-					<?php
-						$page_info = get_page_by_path('プライバシーポリシー');
-						$page = get_post($page_info);
-						echo $page->post_content;
-					?>
-				</p>
-			</div>
+		<div class="container">
+			<p>
+				<?php
+					$page_info = get_page_by_path('プライバシーポリシー');
+					$page = get_post($page_info);
+					echo $page->post_content;
+				?>
+			</p>
+		</div>
+	<?php elseif(is_page('特定商取引法に基づく表記')): ?>
+		<div class="container">
+			<p>
+				<?php
+					$page_info = get_page_by_path('特定商取引法に基づく表記');
+					$page = get_post($page_info);
+					echo $page->post_content;
+				?>
+			</p>
+		</div>
+	<?php elseif(is_page('よくある質問')): ?>
+		<div class="container">
+			<p>
+				<?php
+					$page_info = get_page_by_path('よくある質問');
+					$page = get_post($page_info);
+					echo $page->post_content;
+				?>
+			</p>
+		</div>
+	<?php elseif(is_page('お問い合わせ')): ?>
+		<div class="container">
+			<p>
+				<?php
+					$page_info = get_page_by_path('お問い合わせ');
+					$page = get_post($page_info);
+					echo $page->post_content;
+				?>
+			</p>
 		</div>
 	<?php endif; ?>
 
