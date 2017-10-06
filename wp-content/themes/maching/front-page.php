@@ -1013,10 +1013,10 @@
 
 					<div class="l_sidebar">
 						<div class="l_side_content">
-							<a href="http://www.abc-planning.sakura.ne.jp/lp/002/" target="_blank"><img src="./img/side_banner1.png"></a>
+							<a href="http://www.abc-planning.sakura.ne.jp/lp/002/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/side_banner1.png"></a>
 						</div>
 						<div class="l_side_content">
-							<a href="http://www.abc-planning.sakura.ne.jp/lp/001/" target="_blank"><img src="./img/side_banner2.png"></a>
+							<a href="http://www.abc-planning.sakura.ne.jp/lp/001/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/side_banner2.png"></a>
 						</div>
 						<div class="l_side_content">
 							<div class="l_side_reg">
@@ -1032,7 +1032,7 @@
 							</div>
 						</div>
 						<div class="l_side_content">
-							<a href=""><img src="./img/side_banner3.png"></a>
+							<a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/side_banner3.png"></a>
 						</div>
 						<div class="l_side_content">
 							<div class="l_side_login_button p_bt p_green p_shadow2">
@@ -1040,16 +1040,16 @@
 							</div>
 						</div>
 						<div class="l_side_content">
-							<a href="./second_opinion.html"><img src="./img/side_second_opinion.png"></a>
+							<a href="./second_opinion.html"><img src="<?php echo get_template_directory_uri(); ?>/img/side_second_opinion.png"></a>
 						</div>
 						<div class="l_side_content">
-							<a href="./list_agent.html"><img src="./img/side_agent.png"></a>
+							<a href="./list_agent.html"><img src="<?php echo get_template_directory_uri(); ?>/img/side_agent.png"></a>
 						</div>
 						<div class="l_side_content">
-							<a href="./list_property.html"><img src="./img/side_undisclosed_property.png"></a>
+							<a href="./list_property.html"><img src="<?php echo get_template_directory_uri(); ?>/img/side_undisclosed_property.png"></a>
 						</div>
 						<div class="l_side_content">
-							<a href="./list_success.html"><img src="./img/side_success_stories.png"></a>
+							<a href="./list_success.html"><img src="<?php echo get_template_directory_uri(); ?>/img/side_success_stories.png"></a>
 						</div>
 						<div class="l_side_content">
 							<div class="l_side_notice">
