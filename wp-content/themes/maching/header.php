@@ -55,25 +55,25 @@
 								</a>
 							</li>
 							<li class="l_claim l_orange">
-								<a href="<?php echo get_template_directory_uri(); ?>/list_agent.php">
+                <a href="<?php echo esc_url( get_category_link( get_cat_ID( '新着エージェント' ))) ?>">
 									新着<br>
 									<span>エージェント</span>
 								</a>
 							</li>
 							<li class="l_claim l_green">
-								<a href="./list_property.html">
+                <a href="<?php echo esc_url( get_category_link( get_cat_ID( '未公開物件' ))) ?>">
 									新着<br>
 									<span>未公開物件</span>
 								</a>
 							</li>
 							<li class="l_claim l_blue">
-								<a href="./list_success.html">
+                <a href="<?php echo esc_url( get_category_link( get_cat_ID( '成功事例' ))) ?>">
 									新着<br>
 									<span>成功事例</span>
 								</a>
 							</li>
 							<li>
-								<a href="./guide.html">
+                <a href="<?php echo esc_url( get_category_link( get_cat_ID( 'ご利用ガイド' ))) ?>">
 									ご利用ガイド
 								</a>
 							</li>
