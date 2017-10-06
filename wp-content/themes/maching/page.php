@@ -73,6 +73,37 @@ get_header(); ?>
 				?>
 			</p>
 		</div>
+	<?php elseif(is_page('新規登録')): ?>
+		<div class="container">
+			<p>
+				<?php
+					$page_info = get_page_by_path('新規登録');
+					$page = get_post($page_info);
+					echo $page->post_content;
+				?>
+			</p>
+		</div>
+	<?php elseif(is_page('ログイン')): ?>
+		<div class="container">
+			<p>
+				<?php
+					$page_info = get_page_by_path('ログイン');
+					$page = get_post($page_info);
+					echo $page->post_content;
+				?>
+			</p>
+		</div>
+	<?php elseif(is_page('パスワード再設定認証')): ?>
+		<div class="container">
+			<p>
+				<?php
+					$page_info = get_page_by_path('パスワード再設定認証');
+					$page = get_post($page_info);
+					echo $page->post_content;
+				?>
+			</p>
+		</div>
+
 	<?php endif; ?>
 
 <?php get_footer(); ?>

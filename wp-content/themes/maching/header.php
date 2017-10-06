@@ -29,14 +29,14 @@
 								</li>
 								<li>
 									<div class="p_bt p_yellow">
-										<a href="./reg.html">
+										<a href="<?php echo get_permalink( get_page_by_path('reg') ->ID ); ?>">
 											新規登録
 										</a>
 									</div>
 								</li>
 								<li>
 									<div class="p_bt p_green">
-										<a href="./login.html">
+										<a href="<?php echo get_permalink( get_page_by_path('login') ->ID ); ?>">
 											ログイン
 										</a>
 									</div>
