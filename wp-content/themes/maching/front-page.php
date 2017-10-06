@@ -18,7 +18,7 @@
 						</li>
 						<li>
 							<div class="p_bt p_yellow p_shadow">
-								<a href="">
+								<a href="<?php echo get_permalink( get_page_by_path('reg') ->ID ); ?>">
 									まずは登録
 								</a>
 							</div>
@@ -197,7 +197,6 @@
 									</a>
 								</div>
 							</li>
-
 							<li>
 								<div class="c_newinfo_title">スペックだけでは語り…</div>
 								<div class="c_newinfo_image">
@@ -787,7 +786,7 @@
 							</ul>
 							<div class="p_list_b_bt">
 								<div class="p_bt p_orange p_shadow">
-									<a href="./list_agent.html">新着エージェントの一覧を見る</a>
+	                <a href="<?php echo esc_url( get_category_link( get_cat_ID( '新着エージェント' ))) ?>">新着エージェントの一覧を見る</a>
 								</div>
 							</div>
 						</div>
@@ -892,7 +891,7 @@
 							</ul>
 							<div class="p_list_b_bt">
 								<div class="p_bt p_ygreen p_shadow">
-									<a href="./list_property.html">新着未公開物件の一覧を見る</a>
+	                <a href="<?php echo esc_url( get_category_link( get_cat_ID( '未公開物件' ))) ?>">新着未公開物件の一覧を見る</a>
 								</div>
 							</div>
 						</div>
@@ -997,7 +996,7 @@
 							</ul>
 							<div class="p_list_b_bt">
 								<div class="p_bt p_blue p_shadow">
-									<a href="./list_success.html">新着成功事例の一覧を見る</a>
+	                <a href="<?php echo esc_url( get_category_link( get_cat_ID( '成功事例' ))) ?>">新着成功事例の一覧を見る</a>
 								</div>
 							</div>
 						</div>

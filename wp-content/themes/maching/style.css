@@ -1157,7 +1157,7 @@ li.l_claim a span { font-size:20px; }
 	width:960px;
 	height:560px;
 	margin:0 auto;
-	background:url('./../img/image_step.png') center center no-repeat;
+	background:url(img/image_step.png) center center no-repeat;
 	position:relative;
 }
 .c_agent_description ul {
