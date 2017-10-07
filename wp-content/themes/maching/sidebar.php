@@ -47,11 +47,11 @@
           <?php query_posts("category_name=info&showposts=10"); ?>
           <?php if(have_posts()): while(have_posts()): the_post(); ?>
             <li>
-              <div class="l_side_notice_body_d"><?php the_time('y/m/d'); ?></div>
+              <div class="l_side_notice_body_d"><?php the_time('Y/m/d'); ?></div>
               <div class="l_side_notice_body_t">
                 <?php
-                if(mb_strlen($post->post_content, 'UTF-8')>22){
-                  $title= mb_substr($post->post_content, 0, 22, 'UTF-8');
+                if(mb_strlen($post->post_content, 'UTF-8')>30){
+                  $title= mb_substr($post->post_content, 0, 30, 'UTF-8');
                   echo $title.'…';
                 }else{
                   echo $post->post_content;
