@@ -239,21 +239,6 @@
 				</div>
 			</div>
 		</div>
-		<div class="l_footer_copyright">
-			<div class="p_inner2">
-				<ul class="p_flex p_jc_around">
-					<li><a href="./company.html">運営会社</a></li>
-					<li><a href="./privacy.html">プライバシーポリシー</a></li>
-					<li><a href="./use.html">利用規約</a></li>
-					<li><a href="./tokusho.html">特定商取引法に基づく表記</a></li>
-					<li><a href="./faq.html">よくある質問</a></li>
-					<li><a href="./contact.html">お問い合わせ</a></li>
-				</ul>
-			</div>
-			<div class="l_footer_last_text">
-				Copyright 未公開収益物件仲介人 All Rights Reserved.
-			</div>
-		</div>
 	</div>
 </div>
 <?php get_footer(); ?>

@@ -37,6 +37,7 @@ get_header(); ?>
 									<option value="3">60件表示</option>
 								</select>
 							</div>
+
 							<div class="c_page_feed_select">
 								<ul class="p_flex">
 									<li><a href="">前へ</a></li>
@@ -46,6 +47,14 @@ get_header(); ?>
 									<li><a href="">4</a></li>
 									<li><a href="">5</a></li>
 									<li><a href="">次へ</a></li>
+
+<!--  ページネーションstart-->
+									<?php
+									  if ( function_exists( "pagination" ) ) {
+									      pagination( $additional_loop->max_num_pages );
+									  }
+									?>
+<!--  ページネーションend-->
 								</ul>
 							</div>
 						</div>
@@ -864,9 +873,3 @@ get_header(); ?>
 		</div>
 	</div>
 <?php get_footer(); ?>
-</div>
-</div>
-<script type="text/javascript" charset="UTF-8" src="js/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" charset="UTF-8" src="js/contents.js"></script>
-</body>
-</html>

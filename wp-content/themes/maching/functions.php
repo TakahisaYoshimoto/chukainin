@@ -316,6 +316,35 @@ if (isset($_GET['s']) && $_GET['s'] == false) {
   add_action('template_redirect', 'search_template_redirect');
 }
 
+// ページネーションの実装
+function pagination( $pages = '', $range = 2 ) {
+  $showitems = ( $range * 2 )+1;
+  global $paged;
+  if ( empty( $paged ) ) $paged = 1;
+  if ( $pages == '' ) {
+    global $wp_query;
+    $pages = $wp_query->max_num_pages;
+    if ( !$pages ) {
+      $pages = 1;
+    }
+  }
+
+  if ( 1 != $pages ) {
+    if ( $paged > 2 && $paged > $range+1 && $showitems < $pages )
+    echo "<a href='".get_pagenum_link(1)."'>&laquo; First</a>";
+    if ( $paged > 1 && $showitems < $pages )
+    echo "<a href='".get_pagenum_link($paged - 1)."'>前へ</a>";
+    for ( $i=1; $i <= $pages; $i++ ) {
+      if ( 1 != $pages &&( !($i >= $paged+$range+1 || $i <= $paged-$range-1) || $pages <= $showitems ) ) {
+        echo ( $paged == $i ) ? "<span class=\"current\">".$i."</span>":"<a href='".get_pagenum_link($i)."' class=\"inactive\">".$i."</a>";
+      }
+    }
+    if ( $paged < $pages && $showitems < $pages )
+    echo "<a href=\"" . get_pagenum_link( $paged + 1 ) . "\">次へ</a>";
+  }
+}
+
+
 // function my_admin_bar_menu() {
 // $wp_admin_bar->remove_node('wp-logo');  // ロゴの非表示
 // }
