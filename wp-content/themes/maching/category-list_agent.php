@@ -80,7 +80,6 @@ get_header(); ?>
 
 				<div class="c_agent_list">
 					<ul>
-
 						<li>
 							<div class="p_flex">
 								<div class="c_agent_list_introduction">
@@ -97,7 +96,7 @@ get_header(); ?>
 										スペックだけでは語り尽くせない魅力を丁寧にお伝えし、「一点ものの住まいとの出…
 									</div>
 									<div class="c_agent_list_main p_flex">
-										<div class="c_agent_list_thumb"><img src="./img/dummy/test.png"></div>
+										<div class="c_agent_list_thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/dummy/test.png"></div>
 										<div class="c_agent_list_main_info">
 											<div class="c_agent_list_main_name">
 												<ul class="p_flex p_ai_center">
@@ -150,7 +149,7 @@ get_header(); ?>
 										スペックだけでは語り尽くせない魅力を丁寧にお伝えし、「一点ものの住まいとの出…
 									</div>
 									<div class="c_agent_list_main p_flex">
-										<div class="c_agent_list_thumb"><img src="./img/dummy/test.png"></div>
+										<div class="c_agent_list_thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/dummy/test.png"></div>
 										<div class="c_agent_list_main_info">
 											<div class="c_agent_list_main_name">
 												<ul class="p_flex p_ai_center">
@@ -203,7 +202,7 @@ get_header(); ?>
 										スペックだけでは語り尽くせない魅力を丁寧にお伝えし、「一点ものの住まいとの出…
 									</div>
 									<div class="c_agent_list_main p_flex">
-										<div class="c_agent_list_thumb"><img src="./img/dummy/test.png"></div>
+										<div class="c_agent_list_thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/dummy/test.png"></div>
 										<div class="c_agent_list_main_info">
 											<div class="c_agent_list_main_name">
 												<ul class="p_flex p_ai_center">
@@ -256,7 +255,7 @@ get_header(); ?>
 										スペックだけでは語り尽くせない魅力を丁寧にお伝えし、「一点ものの住まいとの出…
 									</div>
 									<div class="c_agent_list_main p_flex">
-										<div class="c_agent_list_thumb"><img src="./img/dummy/test.png"></div>
+										<div class="c_agent_list_thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/dummy/test.png"></div>
 										<div class="c_agent_list_main_info">
 											<div class="c_agent_list_main_name">
 												<ul class="p_flex p_ai_center">
@@ -309,7 +308,7 @@ get_header(); ?>
 										スペックだけでは語り尽くせない魅力を丁寧にお伝えし、「一点ものの住まいとの出…
 									</div>
 									<div class="c_agent_list_main p_flex">
-										<div class="c_agent_list_thumb"><img src="./img/dummy/test.png"></div>
+										<div class="c_agent_list_thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/dummy/test.png"></div>
 										<div class="c_agent_list_main_info">
 											<div class="c_agent_list_main_name">
 												<ul class="p_flex p_ai_center">
@@ -362,7 +361,7 @@ get_header(); ?>
 										スペックだけでは語り尽くせない魅力を丁寧にお伝えし、「一点ものの住まいとの出…
 									</div>
 									<div class="c_agent_list_main p_flex">
-										<div class="c_agent_list_thumb"><img src="./img/dummy/test.png"></div>
+										<div class="c_agent_list_thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/dummy/test.png"></div>
 										<div class="c_agent_list_main_info">
 											<div class="c_agent_list_main_name">
 												<ul class="p_flex p_ai_center">
@@ -415,7 +414,7 @@ get_header(); ?>
 										スペックだけでは語り尽くせない魅力を丁寧にお伝えし、「一点ものの住まいとの出…
 									</div>
 									<div class="c_agent_list_main p_flex">
-										<div class="c_agent_list_thumb"><img src="./img/dummy/test.png"></div>
+										<div class="c_agent_list_thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/dummy/test.png"></div>
 										<div class="c_agent_list_main_info">
 											<div class="c_agent_list_main_name">
 												<ul class="p_flex p_ai_center">
@@ -468,7 +467,7 @@ get_header(); ?>
 										スペックだけでは語り尽くせない魅力を丁寧にお伝えし、「一点ものの住まいとの出…
 									</div>
 									<div class="c_agent_list_main p_flex">
-										<div class="c_agent_list_thumb"><img src="./img/dummy/test.png"></div>
+										<div class="c_agent_list_thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/dummy/test.png"></div>
 										<div class="c_agent_list_main_info">
 											<div class="c_agent_list_main_name">
 												<ul class="p_flex p_ai_center">
@@ -521,7 +520,7 @@ get_header(); ?>
 										スペックだけでは語り尽くせない魅力を丁寧にお伝えし、「一点ものの住まいとの出…
 									</div>
 									<div class="c_agent_list_main p_flex">
-										<div class="c_agent_list_thumb"><img src="./img/dummy/test.png"></div>
+										<div class="c_agent_list_thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/dummy/test.png"></div>
 										<div class="c_agent_list_main_info">
 											<div class="c_agent_list_main_name">
 												<ul class="p_flex p_ai_center">
@@ -574,7 +573,7 @@ get_header(); ?>
 										スペックだけでは語り尽くせない魅力を丁寧にお伝えし、「一点ものの住まいとの出…
 									</div>
 									<div class="c_agent_list_main p_flex">
-										<div class="c_agent_list_thumb"><img src="./img/dummy/test.png"></div>
+										<div class="c_agent_list_thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/dummy/test.png"></div>
 										<div class="c_agent_list_main_info">
 											<div class="c_agent_list_main_name">
 												<ul class="p_flex p_ai_center">
@@ -627,7 +626,7 @@ get_header(); ?>
 										スペックだけでは語り尽くせない魅力を丁寧にお伝えし、「一点ものの住まいとの出…
 									</div>
 									<div class="c_agent_list_main p_flex">
-										<div class="c_agent_list_thumb"><img src="./img/dummy/test.png"></div>
+										<div class="c_agent_list_thumb"><img src="<?php echo get_template_directory_uri(); ?>/img/dummy/test.png"></div>
 										<div class="c_agent_list_main_info">
 											<div class="c_agent_list_main_name">
 												<ul class="p_flex p_ai_center">
@@ -731,7 +730,7 @@ get_header(); ?>
 	<div class="p_inner2">
 		<div class="p_flex">
 			<div class="l_footer_search_area">
-				<div class="l_footer_search_title"><img src="./img/icon_search_w_s.png">地域から探す</div>
+				<div class="l_footer_search_title"><img src="<?php echo get_template_directory_uri(); ?>/img/icon_search_w_s.png">地域から探す</div>
 				<div class="p_flex">
 					<div class="l_footer_search_body l_flex">
 						<dl class="p_flex">
@@ -841,7 +840,7 @@ get_header(); ?>
 				</div>
 			</div>
 			<div class="l_footer_search_property">
-				<div class="l_footer_search_title"><img src="./img/icon_search_w_s.png">物件種別からさがす</div>
+				<div class="l_footer_search_title"><img src="<?php echo get_template_directory_uri(); ?>/img/icon_search_w_s.png">物件種別からさがす</div>
 				<div class="l_footer_search_body">
 					<ul class="p_flex">
 						<li><a href="./list_search_result.html">一棟RC</a></li>
