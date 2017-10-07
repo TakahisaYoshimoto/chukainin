@@ -73,6 +73,9 @@ get_header(); ?>
 				?>
 			</p>
 		</div>
+		<?php get_sidebar(right); ?>
+	</div>
+</div>
 	<?php elseif(is_page('新規登録')): ?>
 		<div class="container">
 			<p>
@@ -105,5 +108,4 @@ get_header(); ?>
 		</div>
 
 	<?php endif; ?>
-
 <?php get_footer(); ?>
