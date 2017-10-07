@@ -1020,22 +1020,22 @@
 						<ul class="p_flex p_jc_around">
 							<li>
 								<div class="p_bt p_green p_shadow2">
-									<a href="./guide.html#area1">詳細はこちら</a>
+									<a href="<?php echo esc_url( get_category_link( get_cat_ID( 'ご利用ガイド' ))) ?>#area1">詳細はこちら</a>
 								</div>
 							</li>
 							<li>
 								<div class="p_bt p_green p_shadow2">
-									<a href="./guide.html#area2">詳細はこちら</a>
+									<a href="<?php echo esc_url( get_category_link( get_cat_ID( 'ご利用ガイド'))) ?>#area2">詳細はこちら</a>
 								</div>
 							</li>
 							<li>
 								<div class="p_bt p_green p_shadow2">
-									<a href="./guide.html#area3">詳細はこちら</a>
+									<a href="<?php echo esc_url( get_category_link( get_cat_ID( 'ご利用ガイド' ))) ?>#area3">詳細はこちら</a>
 								</div>
 							</li>
 							<li>
 								<div class="p_bt p_green p_shadow2">
-									<a href="./guide.html#area4">詳細はこちら</a>
+									<a href="<?php echo esc_url( get_category_link( get_cat_ID( 'ご利用ガイド' ))) ?>#area4">詳細はこちら</a>
 								</div>
 							</li>
 						</ul>
