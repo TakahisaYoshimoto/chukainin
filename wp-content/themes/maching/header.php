@@ -31,7 +31,7 @@
 								</li>
 								<li>
 									<div class="p_bt p_yellow">
-										<a href="<?php echo get_permalink( get_page_by_path('reg') ->ID ); ?>">
+										<a href="<?php echo esc_url( get_category_link( get_cat_ID( '新規登録' ))) ?>">
 											新規登録
 										</a>
 									</div>

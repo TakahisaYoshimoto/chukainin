@@ -66,16 +66,6 @@ get_header(); ?>
 		<?php get_sidebar(right); ?>
 	</div>
 </div>
-	<?php elseif(is_page('新規登録')): ?>
-		<div class="container">
-			<p>
-				<?php
-					$page_info = get_page_by_path('新規登録');
-					$page = get_post($page_info);
-					echo $page->post_content;
-				?>
-			</p>
-		</div>
 
 	<?php endif; ?>
 <?php get_footer(); ?>
