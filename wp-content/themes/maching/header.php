@@ -38,7 +38,7 @@
 								</li>
 								<li>
 									<div class="p_bt p_green">
-										<a href="<?php echo get_permalink( get_page_by_path('login') ->ID ); ?>">
+										<a href="<?php echo esc_url( get_category_link( get_cat_ID( 'ログイン' ))) ?>">
 											ログイン
 										</a>
 									</div>
