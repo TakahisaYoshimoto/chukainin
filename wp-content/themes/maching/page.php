@@ -53,19 +53,5 @@ get_header(); ?>
 				?>
 			</p>
 		</div>
-	<?php elseif(is_page('お問い合わせ')): ?>
-		<div class="container">
-			<p>
-				<?php
-					$page_info = get_page_by_path('お問い合わせ');
-					$page = get_post($page_info);
-					echo $page->post_content;
-				?>
-			</p>
-		</div>
-		<?php get_sidebar(right); ?>
-	</div>
-</div>
-
 	<?php endif; ?>
 <?php get_footer(); ?>
