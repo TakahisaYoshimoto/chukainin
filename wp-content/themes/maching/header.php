@@ -31,14 +31,14 @@
 								</li>
 								<li>
 									<div class="p_bt p_yellow">
-										<a href="<?php echo esc_url( get_category_link( get_cat_ID( '新規登録' ))) ?>">
+										<a href="<?php echo get_permalink( get_page_by_path('register') ->ID ); ?>">
 											新規登録
 										</a>
 									</div>
 								</li>
 								<li>
 									<div class="p_bt p_green">
-										<a href="<?php echo esc_url( get_category_link( get_cat_ID( 'ログイン' ))) ?>">
+										<a href="<?php echo get_permalink( get_page_by_path('login') ->ID ); ?>">
 											ログイン
 										</a>
 									</div>
@@ -75,7 +75,7 @@
 								</a>
 							</li>
 							<li>
-                <a href="<?php echo esc_url( get_category_link( get_cat_ID( 'ご利用ガイド' ))) ?>">
+                <a href="<?php echo get_permalink( get_page_by_path('guide') ->ID ); ?>">
 									ご利用ガイド
 								</a>
 							</li>

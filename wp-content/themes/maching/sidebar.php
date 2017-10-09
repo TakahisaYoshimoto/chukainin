@@ -10,7 +10,7 @@
       <div class="l_side_reg_title">新規登録</div>
       <div class="l_side_reg_body">
         <div class="p_bt p_yellow p_shadow2">
-          <a href="<?php echo esc_url( get_category_link( get_cat_ID( '新規登録' ))) ?>">
+          <a href="<?php echo get_permalink( get_page_by_path('register') ->ID ); ?>">
             無料で新規登録<br>
             <span>たった30秒で完了!!</span>
           </a>
@@ -19,15 +19,15 @@
     </div>
   </div>
   <div class="l_side_content">
-    <a href="<?php echo esc_url( get_category_link( get_cat_ID( 'ご利用ガイド' ))) ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/side_banner3.png"></a>
+    <a href="<?php echo get_permalink( get_page_by_path('guide') ->ID ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/side_banner3.png"></a>
   </div>
   <div class="l_side_content">
     <div class="l_side_login_button p_bt p_green p_shadow2">
-      <a href="<?php echo esc_url( get_category_link( get_cat_ID( 'ログイン' ))) ?>">ログインはこちら</a>
+      <a href="<?php echo get_permalink( get_page_by_path('login') ->ID ); ?>">ログインはこちら</a>
     </div>
   </div>
   <div class="l_side_content">
-    <a href="<?php echo esc_url( get_category_link( get_cat_ID( 'セカンドオピニオン' ))) ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/side_second_opinion.png"></a>
+    <a href="<?php echo get_permalink( get_page_by_path('second_opinion') ->ID ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/side_second_opinion.png"></a>
   </div>
   <div class="l_side_content">
     <a href="<?php echo esc_url( get_category_link( get_cat_ID( '新着エージェント' ))) ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/side_agent.png"></a>

@@ -48,13 +48,6 @@ get_header(); ?>
 									<li><a href="">5</a></li>
 									<li><a href="">次へ</a></li>
 
-<!--  ページネーションstart-->
-									<?php
-									  if ( function_exists( "pagination" ) ) {
-									      pagination( $additional_loop->max_num_pages );
-									  }
-									?>
-<!--  ページネーションend-->
 								</ul>
 							</div>
 						</div>
